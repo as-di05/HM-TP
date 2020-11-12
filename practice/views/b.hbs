@@ -1,0 +1,22 @@
+<div class="sec"></div><a href="/" style="position: absolute; margin: 2%;">На главную</a>
+
+<h5>{{ttitle}}</h5>
+
+<a class="control prev" href="/a" role="button"></a>
+    <a class="control next" href="/c" role="button"></a>
+
+    
+<script>
+    let a = +prompt ('Введите целое число, не превосходящее по модулю 10000');
+    let next = a + 1;
+    let prev = a - 1;
+
+    if (a <= 10000) {
+         alert ("The next number for the number " + a + ' is ' + next + '.');
+         alert ("The previous number for the number " + a + ' is ' + prev + '.');
+    }
+        else {
+            alert("Вы ввели не правильное значение!")
+        }
+
+</script>

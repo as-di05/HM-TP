@@ -1,0 +1,39 @@
+<div class="sec"></div><a href="/" style="position: absolute; margin: 2%;">На главную</a>
+
+<h5>{{ttitle}}</h5>
+
+<a class="control prev" href="/" role="button"></a>
+    <a class="control next" href="/b" role="button"></a>
+
+
+
+
+<script>
+    let a=+prompt ('введите значение первого катета');
+    let b=+prompt ('введите значение второго катета');
+    let c;
+
+    c = Math.sqrt(a*a + b*b);
+    alert ("Гипотенуза = " + c);
+</script>
+
+
+{{!-- 
+<script>
+
+    let a = +prompt('perviy');
+    let b = +prompt('vtoroi');
+    let s=0;
+ 
+
+    for (let i = a; i <= b; i++){
+        let des = Math.trunc(i / 10);
+        let odn = i % 10;
+        
+            if ((i % des)==0 && (i % odn)==0){
+                console.log(i)
+            }
+        
+    }
+    
+</script> --}}

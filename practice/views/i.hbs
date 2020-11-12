@@ -1,0 +1,25 @@
+<div class="sec"></div><a href="/" style="position: absolute; margin: 2%;">На главную</a>
+
+<h5>{{ttitle}}</h5>
+
+    <a class="control prev" href="/h" role="button"></a>
+    <a class="control next" href="/j" role="button"></a>
+
+
+<script>
+    let a = +prompt ('введите трехзначное число:');
+    
+    if (99 < a){
+        if (a < 1000){
+         let b = a % 10;
+         let c = (a % 100) - b;
+         let d = ((a - c - b) / 100) + b + (c / 10);
+         alert ('Сумма чисел "' + a + '"' + ' равна: ' + d);
+    }else {
+        alert( 'Введите трехзначное число!!!' )
+    }
+        }
+    else {
+        alert( 'Введите трехзначное число!!!' )
+    }
+</script>

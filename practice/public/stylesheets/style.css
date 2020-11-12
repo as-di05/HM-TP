@@ -1,0 +1,119 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+header {
+  width: 100%;
+  text-align: center;
+  color: #0174dc;
+  margin-bottom: 3%;
+}
+
+.wrapper {
+  margin: 1% 5% 25% 25%;
+  width: 50%;
+  height: 500px;
+  background-color: #d8e8ee;
+  border: 1px solid #0174dc;
+  border-radius: 4%;
+  overflow: hidden;
+}
+
+.all__content {
+  margin: 5% 5% 5% 5%;
+  width: 90%;
+ height: 90%;
+ overflow: hidden;
+}
+
+.content {
+  align-content: center;
+  margin: 1% 1% 1% 1%;
+  display: inline-block;
+  text-align: center;
+  
+  width: 13.7%;
+  height: 17%;
+  background: #0174dc;
+  border-radius: 5%;
+  border: 1px solid #00fff7;
+  
+}
+
+.content:hover {
+  background: #14b1ea;
+  transition: 0.4s;
+}
+.content a:hover {
+  color: #0051ff;
+  transition: 0.4s;
+}
+@media all and (max-width: 1100px) {
+  .content {
+    width: 12%;
+    height: 12%;
+  }
+}
+
+.content a{
+  color: #00fff7;
+  margin: 0;
+  font-size: 20px; 
+  text-decoration: none; 
+}
+@media all and (max-width: 1000px) {
+  .content a{
+    font-size: 12px;
+  }
+}
+
+
+h5 {
+  color: #0174dc;
+  text-align: center;
+  font-size: 100px;
+}
+
+a {
+  font-weight: bold;
+  color: #0051ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff000d;
+  transition: 0.3s;
+}
+
+
+.control {
+  margin: -40% -5% 0% -5%;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.next:hover{
+  border: 50px solid transparent; 
+  border-left: 50px solid #ff000d;
+  transition: 0.3s;
+}
+
+.next {
+  border: 50px solid transparent; 
+  border-left: 50px solid #0174dc;
+  float: right;
+}
+
+.prev {
+  border: 50px solid transparent; 
+  border-right: 50px solid #0174dc;
+  float: left;
+}
+
+.prev:hover {
+  border: 50px solid transparent; 
+  border-right: 50px solid #ff000d;
+  transition: 0.3s;
+}

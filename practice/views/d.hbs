@@ -1,0 +1,19 @@
+<div class="sec"></div><a href="/" style="position: absolute; margin: 2%;">На главную</a>
+
+<h5>{{ttitle}}</h5>
+
+    <a class="control prev" href="/c" role="button"></a>
+    <a class="control next" href="/e" role="button"></a>
+
+<script>
+    let N = +prompt ('Количество школьников:');
+    let K = +prompt ('Количество яблок:');
+    
+    let s = K % N;
+
+    if (s <= 0){
+        alert("В корзине не осталось яблок!")
+    } else {
+    alert ('Из ' +'(' + K + ')' + ' яблок, ' + ' в корзине осталось ' + '(' + s + ')' + '.');
+    }
+</script>

@@ -1,0 +1,21 @@
+<div class="sec"></div><a href="/" style="position: absolute; margin: 2%;">На главную</a>
+
+<h5>{{ttitle}}</h5>
+
+    <a class="control prev" href="/g" role="button"></a>
+    <a class="control next" href="/i" role="button"></a>
+
+
+<script>
+    let a = +prompt ('введите число (неотрицательное)');
+    let b;
+    let c;
+    if(a > 0) {
+    b = Math.trunc(a / 100);
+    c = Math.floor((a - (b*100)) / 10);
+    alert ('Число десятков в "' + a + '"' + ' равна: ' + c);
+    } 
+    else {
+        alert ('Введите положительное число!')
+    }
+</script>
